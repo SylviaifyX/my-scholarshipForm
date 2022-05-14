@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SCHOLARSHIP FORM PROJECT</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="col">
+            <div class="col1">
+                <div class="logo">
+                    <img src="img/school logo.webp" alt="">
+
+
+                </div>
+                <div class="words">
+                    <p>GOTH College</p>
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col2">
+
+                <div class="header">
+                    <h1>SCHOLARSHIP APPLICATION</h1>
+                    <p><i> Note: Scholarship will only be Awarded to Candidate that meet up to the Neccesary Required.
+                    </p></i>
+                </div>
+
+                <div class="contain">
+
+                    <div class="formy">
+                        <div class="perIfo">
+                            <div class="head">
+                                <h2> Personal Information</h2>
+                            </div>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="first Name"> First Name:</label>
+                                </div>
+
+                                <input type="text" name="firstName" placeholder="firstname" id="Firstname"
+                                    class="boxxy1">
+                                <span></span>
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="last name">Last Name:</label>
+
+                                </div>
+                                <input type="text" name="lastName" placeholder="lastname" id="Lastname" class="boxxy1">
+                                <span></span>
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="gender">Gender</label>
+                                </div>
+
+                                <select name="" id="Gender" class="boxxy1">
+                                    <option value="">Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="transgender">Transgender</option>
+
+                                </select>
+                                <span></span>
+
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="number">PhoneNumber:</label>
+
+                                </div>
+
+                                <input type="text" placeholder="phoneNumber" id="phoneNumber" class="boxxy1">
+                                <span></span>
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="Date-of-Birth">Date-of-Birth</label>
+
+                                </div>
+                                <input type="date" id="DateOfBirth" class="boxxy1" name="date">
+                                <span></span>
+
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="Age">Age</label>
+
+                                </div>
+
+                                <input type="text" id="age" name="age" class="boxxy1">
+                                <span id="agePoint"></span>
+
+                            </form>
+
+                            <form>
+                                <div class="bel">
+                                    <label for="school">School:</label>
+
+                                </div>
+                                <input type="text" placeholder="school" id="School" class="boxxy1">
+                                <span></span>
+                            </form>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="space">
+                        <div class="head">
+                            <h2> Continent</h2>
+
+                        </div>
+
+                        <div class="Conti1">
+                            <div class="c">
+                                <label for="continent">Continent:</label>
+
+                            </div>
+                            <select name="" id="selectContinent" class="Con">
+                                <option value="">Select</option>
+                                <option value="Africa">Africa</option>
+                                <option value="asia">asia</option>
+                                <option value="SouthAmerica">South-America</option>
+                                <option value="NorthAmerica">North-America</option>
+                                <option value="Others">Others</option>
+                            </select>
+                            <span id="continentPoint"></span>
+
+                            <div class="conti2">
+                                <select name="" id="Africa" class="Contry">
+                                    <option value="select">Select</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="BeninRepublic">BeninRepublic</option>
+                                    <span id="AfricaPoint"></span>
+
+                                </select>
+                                <select name="" id="asia" class="Contry">
+                                    <option value="select">Select</option>
+                                    <option value="">china</option>
+                                    <option value="">japan</option>
+                                    <option value="">south korean</option>
+                                    <span id="asiaPoint"></span>
+
+                                </select>
+                                <select name="" id="SouthAmerica" class="Contry">
+                                    <option value="select">Select</option>
+                                    <option value="">brazil</option>
+                                    <option value="">colombia</option>
+                                    <option value="">Escurdor</option>
+                                    <span id="SouthAmericaPoint"></span>
+
+                                </select>
+                                <select name="" id="NorthAmerica" class="Contry">
+                                    <option value="select">Select</option>
+                                    <option value="">USA</option>
+                                    <option value="">Canada</option>
+                                    <option value="">BeninRepublic</option>
+                                    <span id="NorthAmericaPoint"></span>
+
+                                </select>
+                                <select name="" id="Others" class="Contry">
+                                    <option value="select">Select</option>
+                                    <option value="">Uk</option>
+                                    <option value="">Spain</option>
+                                    <option value="">Germany</option>
+                                    <span id="OthersPoint"></span>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="calculation">
+                        <div class="head">
+                            <h2> Subject</h2>
+
+                        </div>
+
+                        <form class="FMaths">
+
+                            <div class="M">
+                                <select name="Mathematics" id="math" disabled class="box">
+                                    <option value="Maths">Mathematics</option>
+                                </select>
+                            </div>
+                            <input type="number" class="Xn" id="Score1" placeholder="score">
+                            <span></span>
+
+                            <!-- <span id="subPoint"></span> -->
+
+
+
+
+                        </form>
+                        <form class="FEnglish">
+
+                            <div class="M">
+
+                                <select name="English" id="Eng" disabled class="box">
+                                    <option value="English">English Lang</option>
+                                </select>
+                            </div>
+                            <input type="number" class="Xn" id="engScore" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+
+                        </form>
+                        <form>
+                            <div class="class">
+
+                            </div>
+                            <select name="crk" id="Sub1" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK">CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+
+
+                            </select>
+                            <input type="text" class="Xn" id="sub1Score" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+                        </form>
+                        <form>
+                            <select name="biology" id="Sub2" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK" id="crk1">CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+                            </select>
+
+
+                            <input type="text" class="Xn" id="sub2Score" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+                        </form>
+                        <form>
+                            <select name="economics" id="Sub3" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK" id="crk1" disabled>CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+                            </select>
+
+                            <input type="text" class="Xn" id="sub3Score" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+                        </form>
+                        <form>
+                            <select name="account" id="Sub4" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK" id="crk1">CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+                            </select>
+
+
+                            <input type="text" class="Xn" id="sub4Score" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+                        </form>
+                        <form>
+                            <select name="lit-in-english" id="Sub5" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK" id="crk1">CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+                            </select>
+
+
+                            <input type="text" class="Xn" id="sub5Score" placeholder="score">
+                            <span></span>
+                            <!-- <span id="subPoint"></span> -->
+
+                        </form>
+                        <form>
+                            <select name="furtherMaths" id="Sub6" class="boxx">
+                                <option value="">Select</option>
+                                <option value="CRK" id="crk1" >CRK</option>
+                                <option value="BIOLOGY">BIOLOGY</option>
+                                <option value="ECONOMICS">ECONOMICS</option>
+                                <option value="ACCOUNT">ACCOUNT</option>
+                                <option value="LIT-IN-ENGLISH">LIT-IN-ENGLISH</option>
+                                <option value="FURTHER MATHS">FUTHER MATHEMATICS</option>
+
+                            </select>
+
+
+                            <input type="text" class="Xn" id="sub6Score" placeholder="score">
+                            <span id=></span>
+                            <!-- <span id="subPoint"></span> -->
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+                <div class="button">
+                    <button type="button" id="ApplyBtn" class="but">Apply</button>
+
+                </div>
+
+
+                <div class="Result" id="result">
+
+
+                </div>
+
+
+
+
+                
+
+
+            </div>
+
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+
+        </div> 
+
+      
+
+
+
+
+
+        <script src="main.js"></script>
+    </div>
+
+</body>

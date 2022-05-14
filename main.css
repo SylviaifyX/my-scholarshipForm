@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, green, rgb(155, 247, 155));
+}
+.container .col .col1 .logo img{
+    width: 48%;
+    margin-left: 80px;
+    margin-top: 120px;
+
+}
+.container .col  .col1 .words p{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 55px;
+    color: white;
+   background: linear-gradient(to right, green, rgb(155, 247, 155));
+}
+.container .col  .col1 .words{
+    width: 70%;
+    margin-left: 40px;
+}
+
+
+.container .col{
+   
+ display: flex;
+    width: 100%;
+    
+}
+.container .col .col1 {
+    width: 45%;
+
+}
+.container .col .col2{
+    width: 50%;
+    margin: 20px;
+    background-color: white;
+    margin-left: 28px;
+    box-shadow:  2px 2px 4px 4px lightgreen;
+
+}
+
+
+/* .contain .logo .footer{
+    margin-top: 879px;
+    padding-left: 10px;
+    
+} */
+/* .contain .logo .footer p{
+    color: rgb(226, 8, 8);
+    padding: 3px;
+} */
+/* .contain .logo .footer a{
+    text-decoration: none;
+} */
+
+
+.container .header{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.container .header h1{
+    padding-top: 20px;
+    color: lightgreen;
+    margin-bottom: 10px;
+}
+.container .header p{
+    font-size: 15px;
+}
+.contain .formy .perIfo{
+    width: 98%;
+    background-color: beige
+}
+.formy .perIfo{
+    width:100%;
+    margin:auto;
+}
+.contain .space{
+    width: 98%;
+    background-color: beige;
+    margin: auto;
+    height: 100px;
+}
+.contain .calculation{
+    width: 98%;
+    background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.head{
+    background-color:lightgreen;
+
+}
+.head h2{
+    width: 100%;
+    margin-left: 5px;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform:uppercase ;
+    color: rgb(87, 85, 85);
+}
+.c{
+    width: 25%;
+    padding: 4px;
+    background-color: rgb(62, 146, 62);
+    outline: none;
+}
+
+.bel{
+    margin-top: 8px;
+    width: 25%;
+    padding: 4px;
+    background-color: rgb(62, 146, 62);
+    outline: none;
+    /* width: 50%;
+    background-color: blue;
+    border: 2px solid black;
+  text-transform: uppercase;
+    padding: 3px; */
+}
+.M{ 
+     background-color:  rgb(62, 146, 62);
+     width: 25%;
+     padding: 4px;
+     outline: none;
+ }
+
+
+.box{
+
+ outline: none;
+ background: none;
+ color:rgb(252, 231, 231);
+ font-size: 16px;
+
+}
+.boxx{
+    width:26%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey; 
+}
+.Conti1{ 
+     display:flex;
+     width:100%;
+     margin-top: 8px;
+}
+.Con{
+    width: 40%;
+    padding: 4px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey; 
+
+}
+
+label{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(240, 221, 221);
+    margin-left: 10px;
+}
+.formy{
+    width: 100%;
+
+    
+}
+form{
+    display: flex;
+    padding-top:  8px;
+    padding-bottom: 8px;
+}
+ 
+.boxxy1{
+    width: 50%;
+    padding: 4px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey; 
+
+} 
+.Xn{
+    width: 50%;
+    margin-left: 26px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey; 
+}
+.Contry{
+    display: none;
+    width: 50%;
+    padding: 4px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey; 
+}
+.conti2{
+    width:50%
+}
+
+
+
+/* .contain .logo{
+    width: 30%;
+    background-color: rgb(209, 175, 240);
+    
+} */
+/* .logo img{
+    width: 65%;
+    margin-left: 20px;
+    margin-top: 10px;
+} */
+
+
+.boxxy2{
+    width: 40%;
+    margin-left: 67px;
+    padding: 8px;
+}
+.boxxy{
+    width: 40%;
+    margin-left: 70px;
+    padding: 8px;
+    border:1px solid grey;
+    outline: none
+}
+
+
+.Subject{
+    display: flex;
+}
+
+
+.button{
+
+    text-align: center;
+    background-color: beige;
+    width: 98%;
+    margin: auto;
+    margin-top: 8px;
+    
+}
+.button .but{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(62, 146, 62);
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: beige;
+    text-transform: uppercase;
+}
+
